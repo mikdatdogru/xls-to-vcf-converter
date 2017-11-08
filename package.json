@@ -7,6 +7,6 @@
     "xls-to-json": "^0.4.0"
   },
   "scripts": {
-    "convert": "node convert.js --input ./rehber.xlsx --output ./aa/vCardx.vcf --sheet test"
+    "convert": "node convert.js --input ./rehber.xlsx --output ./vCardx.vcf --sheet test"
   }
 }

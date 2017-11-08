@@ -1,0 +1,12 @@
+{
+  "name": "vcfconverter",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "xls-to-json": "^0.4.0"
+  },
+  "scripts": {
+    "convert": "node convert.js --input tumrehber.xlsx --output vCard.vcf --sheet tesst"
+  }
+}

@@ -1,6 +1,6 @@
 const node_xj = require("xls-to-json");
 const fs = require('fs');
-const parseArgs = require('minimist');
+
 
 const argv = require('minimist')(process.argv.slice(2));
 
@@ -10,7 +10,7 @@ const opts = {};
 
 opts.input = argv.input;
 opts.output = "output.json";
-argv.sheet ? opts.sheet = argv.sheet:null;
+argv.sheet ? opts.sheet = argv.sheet : null;
 
 console.log(opts);
 node_xj(opts, function(err, result) {
@@ -41,7 +41,8 @@ node_xj(opts, function(err, result) {
     card = "";
 
 
-  });
+  })
+  ;
 
 
   fs.writeFile(__dirname + "/" + argv.output, cards, function(err) {

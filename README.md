@@ -1,6 +1,6 @@
  
 
-# XML to VCF Converter
+# XLS to VCF Converter
 
  
 
